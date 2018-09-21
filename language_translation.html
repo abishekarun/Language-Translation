@@ -12615,8 +12615,6 @@ Default GPU Device: /gpu:0
     <span class="n">dec_input</span> <span class="o">=</span> <span class="n">process_decoder_input</span><span class="p">(</span><span class="n">target_data</span><span class="p">,</span> <span class="n">target_vocab_to_int</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">)</span>
     
     <span class="c1"># Pass encoder state and decoder inputs to the decoders</span>
-    <span class="n">dec_input</span><span class="p">,</span> <span class="n">enc_state</span><span class="p">,</span> <span class="n">target_sequence_length</span><span class="p">,</span> <span class="n">max_target_sentence_length</span><span class="p">,</span> <span class="n">rnn_size</span><span class="p">,</span> 
-    <span class="n">num_layers</span><span class="p">,</span> <span class="n">target_vocab_to_int</span><span class="p">,</span> <span class="n">target_vocab_size</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">,</span> <span class="n">dec_embedding_size</span>
     <span class="n">training_decoder_output</span><span class="p">,</span> <span class="n">inference_decoder_output</span> <span class="o">=</span> <span class="n">decoding_layer</span><span class="p">(</span><span class="n">dec_input</span><span class="p">,</span>
                                                                        <span class="n">enc_state</span><span class="p">,</span>
                                                                        <span class="n">target_sequence_length</span><span class="p">,</span>
