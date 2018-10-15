@@ -2,7 +2,7 @@
 
 In this project, we try to train a seq2seq model for language translation from english to french.This project was done as part of Neural Network Foundations Nanodegree program at Udacity. 
 
-The Jupyter notebook with final seq2seq model can be found [here](https://github.com/abishekarun/Language-Translation/blob/master/language_translation.ipynb).
+The Jupyter notebook with final seq2seq model can be found [here](https://nbviewer.jupyter.org/github/abishekarun/Language-Translation/blob/master/language_translation.ipynb).
 
 The resources that helped me are:
 
